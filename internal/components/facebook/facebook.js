@@ -1,0 +1,2 @@
+{{ define "facebook.js" }}
+{{end}}

@@ -1,0 +1,22 @@
+{{ define "autosplash.css"}}
+.splash-inner {
+    background-image: url(public/media/sxsw.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.splash-logo {
+    font-size: 3em;
+    font-weight: bold;
+    color: seashell;
+    animation: 600ms linear scalein;
+}
+@keyframes scalein {
+  0% {transform: scale(5) rotate(720deg);}
+  // 100% {transform: scale(1);}
+}
+{{end}}
