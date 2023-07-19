@@ -2,21 +2,34 @@
 .splash-inner {
     background-image: url(public/media/sxsw.jpg);
     background-size: cover;
+    background-position: bottom;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    color: seashell;
 }
 .splash-logo {
-    font-size: 3em;
-    font-weight: bold;
-    color: seashell;
-    animation: 600ms linear scalein;
+    font-size: 9em;
+    text-shadow: 20px 20px #000000a3;
+    animation: 1600ms linear hoverup infinite;
 }
-@keyframes scalein {
-  0% {transform: scale(5) rotate(720deg);}
-  // 100% {transform: scale(1);}
+.splash-dates {
+    font-size: 2em;
+    color: red;
+font-size: 3em;
+    color: #ff03a2;
+    text-shadow: 10px 10px #00bfe1;
+    animation: 1000ms linear glitch infinite;
+}
+@keyframes hoverup {
+  50% {transform: translateY(1vh); text-shadow: 10px 10px black;}
+}
+@keyframes glitch {
+  /* 51% {transform: skewX(0deg); text-shadow: 10px 10px #00bfe1;} */
+  /* 50% {transform: skewX(-20deg); text-shadow: -10px -10px black;} */
+  /* 52% {transform: skewX(0deg); text-shadow: 10px 10px #00bfe1;} */
 }
 {{end}}

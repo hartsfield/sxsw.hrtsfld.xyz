@@ -18,7 +18,9 @@
     display: inline-flex;
     font-size: 1.1em;
     position: fixed;
-    background: chocolate;
+    background: radial-gradient(circle at 100%, #e114d26b, #4d1b8f70 50%, #5dbceb80 75%, #17b4d791 75%);
+    color: #fddeff;
+    font-weight: 400;
     top: 0;
     left: 0;
     width: 100vw;
@@ -46,6 +48,8 @@
         margin: 0 1.5em 0 0;
         padding: 1em;
         cursor: pointer;
+        background: #cf030357;
+        transform: skewX(-20deg);
     }
     .nav-landscape > ul > li:hover {
         background-color: #919b0b;
