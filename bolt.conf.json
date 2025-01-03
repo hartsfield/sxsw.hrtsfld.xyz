@@ -1,7 +1,7 @@
 {
     "app": {
         "name": "SXSW",
-        "domain_name": "hrtsfld.xyz",
+        "domain_name": "sxsw.hrtsfld.xyz",
         "port": "9121",
         "tls_enabled": true,
         "alertsOn": true,
